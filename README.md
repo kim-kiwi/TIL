@@ -179,7 +179,9 @@ html, 이미지, 영상 등 웹 콘텐츠를 주고받기 위해 사용하는 통신 규약
  - OPTIONS: 리소스에 대한 통신 가능 메서드를 설명(서버에서 보내주는 형식인 듯 하다)
  - CONNECT: HTTPS에서 암호화 터널을 설정하는데 사용한다고 함
  - TRACE: 디버그용 통신. 루프백 테스트를 한다고 함. 보안 위험 있음..
+
 **멱등성**: 여러번 같은 신호를 보내도 결과가 같음.
+
 `GET,PUT,PATCH,DELETE,HEAD,OPTIONS`
 
 ### HTTP Status codes
